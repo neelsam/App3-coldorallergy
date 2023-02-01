@@ -33,6 +33,12 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
       <link rel="stylesheet" href="w3.css">
       <link rel="stylesheet" href="w3-colors-flat.css">
    </head> 
+	
+<div id="content" class="w3-container">
+	<p>Are your eyes watery or itchy?</p>    
+	<a href="#two"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
+         	<a href="#two"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
+ </div><!-- /content -->
 
 
 <script>
@@ -92,6 +98,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<p>THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.</p>
 
 	</div>
+	
+	//creation of a new page for question 1
 	<style>	
 .body {
      margin: 0em;
@@ -125,7 +133,33 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         <p>Are your eyes watery or itchy?</p>    //This is one of the specified questions, which is added to the program.
     	</div>
 </div>
+//creation of a new page for question 2 below
+	
+	<style>	
+.body {
+     margin: 0em;
+}
 
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    z-index: 0;
+    background-color: hsl(0,0%,100%);
+}
+
+  .page:target {
+    left: 0vw;
+    z-index: 1;
+}
+</style>
+ 
+
+	
+	
 <div class="page" id="three">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 2</h1>
