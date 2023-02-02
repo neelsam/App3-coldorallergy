@@ -169,6 +169,31 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
          	<a href="#two"  onclick="allergyadd();" class="w3-btn w3-black">No</a>
 	</div>
 </div>	
+	
+	
+	
+	
+	.body {
+     margin: 0em;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    z-index: 0;
+    background-color: hsl(0,0%,100%);
+}
+
+  .page:target {
+    left: 0vw;
+    z-index: 1;
+}
+</style>
+	
  </div><!-- /content -->
 //I have copied the code from question 1 and question 2 to create question 3 and 4
 
@@ -180,8 +205,13 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<div id="content" class="w3-container">
 		<p>Do you have a sore throat??</p> //I have added this question as part of the required questions to determine outcome
 	</div>
-		
+		<a href="#two"  onclick="coldadd();" class="w3-btn w3-black"> Yes</a> /*added code for a button with the following two lines, this will help with calculations/*
+         	<a href="#two"  onclick="allergyadd();" class="w3-btn w3-black">No</a>
+	</div>
 		</div>	
+
+
+
 
 	<div class="page" id="four"> //I edited these values to make sure the code does not get confused with the page number and question that we are currenlty on
 	<div class="w3-container w3-flat-carrot">
@@ -190,6 +220,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	<div id="content" class="w3-container">
 		<p>Are your symptoms seasonal or chronic?</p> //This denotes the final factor to figure out a diagnosis for the patient
+		<a href="#two"  onclick="allergyadd();" class="w3-btn w3-black"> Yes</a> /*added code for a button with the following two lines, this will help with calculations/*
+         	<a href="#two"  onclick="coldadd();" class="w3-btn w3-black">No</a>
+	</div>
 	</div>
 </div>	
 <footer class="w3-bottom w3-container w3-flat-carrot">
