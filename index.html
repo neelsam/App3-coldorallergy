@@ -209,9 +209,25 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
          	<a href="#two"  onclick="allergyadd();" class="w3-btn w3-black">No</a>
 	</div>
 		</div>	
+</style>
 
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    z-index: 0;
+    background-color: hsl(0,0%,100%);
+}
 
-
+  .page:target {
+    left: 0vw;
+    z-index: 1;
+}
+</style>
+ 
 
 	<div class="page" id="four"> //I edited these values to make sure the code does not get confused with the page number and question that we are currenlty on
 	<div class="w3-container w3-flat-carrot">
