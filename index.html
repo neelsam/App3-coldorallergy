@@ -93,8 +93,6 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 	
-	//creating a new page for question 1
-
 	
 <style>	
 .body {
@@ -126,14 +124,12 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	</div>
 	
     	<div id="content" class="w3-container">
-        <p>Are your eyes watery or itchy?</p>    //This is one of the specified questions, which is added to the program.
+        <p>Are your eyes watery or itchy?</p>   
 	<a href="#two"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
          	<a href="#two"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
 
 
     	</div>
-</div>
-//creation of a new page for question 2 below
 	</div>
 	<style>	
 .body {
@@ -163,8 +159,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 <div class="page" id="two">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 2</h1>
-	</div>//This is one of the specified questions, which is added to the program.
-		/*added code for a button with the following two lines, this will help with calculations/*
+	</div>
          	
 				<div id="content" class="w3-container">
 	<p>Do you have fever?</p>    
@@ -173,8 +168,6 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 
 	</div>
-</div>
-//creation of a new page for question 2 below
 	</div>
 	<style>	
 .body {
@@ -200,17 +193,16 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
  
 </div>
 	
-//I have copied the code from question 1 and question 2 to create question 3 and 4
 
-	<div class="page" id="three"> //I edited these values to help the code not get confused on the page number
+	<div class="page" id="three"> 
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 3</h1>
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Do you have a sore throat??</p> //I have added this question as part of the required questions to determine outcome
+		<p>Do you have a sore throat??</p> 
 	</div>
-		<a href="#four"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a> /*added code for a button with the following two lines, this will help with calculations/*
+		<a href="#four"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a> 
          	<a href="#four"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
 	</div>
 		</div>	
@@ -234,14 +226,13 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 </style>
  
 
-	<div class="page" id="four"> //I edited these values to make sure the code does not get confused with the page number and question that we are currenlty on
-	<div class="w3-container w3-flat-carrot">
+	<div class="page" id="four"> 
 		<h1>Question 4</h1>
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Are your symptoms seasonal or chronic?</p> //This denotes the final factor to figure out a diagnosis for the patient
-		<a href="#five"  onclick="allergyadd();" class="w3-btn w3-black"> Yes</a> /*added code for a button with the following two lines, this will help with calculations/*
+		<p>Are your symptoms seasonal or chronic?</p> 
+		<a href="#five"  onclick="allergyadd();" class="w3-btn w3-black"> Yes</a> 
          	<a href="#five"  onclick="coldadd();" class="w3-btn w3-black">No</a>
 	</div>
 	</div>
@@ -272,13 +263,6 @@ var resultText = document.getElementById("results");
 resultText.innerHTML = "Probability it is allergies =" + allergyPercent + "<br> Probability it is a cold =" + coldPercent; 
 </div>	
  </div><!-- /content -->
-
-
-
-
-
-
-
 
 
 <footer class="w3-bottom w3-container w3-flat-carrot">
