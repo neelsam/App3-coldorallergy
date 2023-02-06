@@ -248,9 +248,33 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
          	<a href="#six"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
 		
 	</div><!-- /content -->
+		
+	
+	<style>	
+.body {
+     margin: 0em;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    z-index: 0;
+    background-color: hsl(0,0%,100%);
+}
+
+  .page:target {
+    left: 0vw;
+    z-index: 1;
+}
+</style>	
+		
 	</div>
 
-	<div class="page" id="four"> 
+	<div class="page" id="five"> 
 	<div class="w3-container w3-flat-carrot">
 		<p id="results"></p>
 	</div>
