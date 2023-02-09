@@ -63,8 +63,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 	function resulting() {
 
-	var allergyPercent = allergy_count/6*100; //used to find the allergy percentage
-	var coldPercent = cold_count/6*100 //used to find the cold percentage
+	var allergyPercent = allergy_count/6*100%; //used to find the allergy percentage
+	var coldPercent = cold_count/6*100% //used to find the cold percentage
 	var resultText = document.getElementById("results"); //this is used to retrieve the results
 	resultText.innerHTML = "Probability it is allergies =" + allergyPercent + "<br> Probability it is a cold =" + coldPercent; //this is used to display the results
 	}
@@ -142,6 +142,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	
 <div class="page" id="one">
 	<div id="header" class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<h1>Question 1</h1>
 	</div>
 	
@@ -183,6 +184,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 <div class="page" id="two">
 	<div class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<h1>Question 2</h1>
 	</div>
          	
@@ -221,6 +223,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div class="page" id="three"> 
 	<div class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<h1>Question 3</h1>
 	</div>
 	
@@ -258,6 +261,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div class="page" id="four"> 
 	<div class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<h1>Question 4</h1>
 	</div>
 	
@@ -295,6 +299,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div class="page" id="five"> 
 	<div class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<h1>Question 5</h1>
 	</div>
 	
@@ -332,6 +337,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div class="page" id="six"> 
 	<div class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<h1>Question 6</h1>
 	</div>
 	
@@ -369,6 +375,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div class="page" id="results"> 
 	<div class="w3-container w3-flat-carrot">
+	<div class="w3-bottom w3-container w3-flat-carrot">
 		<p id="results"></p>
 	</div>
 	
@@ -381,7 +388,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	</div>		
 		
 <footer class="w3-bottom w3-container w3-flat-carrot">
-	<p>DIY!</p>
+	<p>DIY! This does not provide accurate or real life results!</p>
 </footer>
 
 </body>
