@@ -6,21 +6,25 @@ THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.
  
  
 Authors in chronological order of contribution:
+Neel Sampangirama
+Author 1
 Tim Riedel
 Author 2
- 					<!-- This code was all provided by Dr. Riedel to help form the document and does not need commenting from me -->
+ <!-- This code was all provided by Dr. Riedel to help form the document and does not need commenting from me -->
 Further Information:
 http://cns.utexas.edu/fri
- 
+
+Researcher:
+Neel Sampangirama
+nsampangirama@utexas.edu
+
 Research Educator:
 Timothy Riedel
 triedel@utexas.edu
  
-Brief Description of Goal of Code:
-blah, blah, blah,
- 
-Known Issues:
-blah, blah, blah, blah
+Brief Description of Goal of Code: The purpose of the code is to help determine between cold and allergy. There will be a series of questions to determine the liklihood of either a cold or an allergy. 
+Known Issues: There are no known issues in the code at the time of publishing to the Canvas Page. Additonally, I want to disclaim that I was not aware of the rule of making comments to the commits until after my group meeting.
+I feel it would be not fair to take off points for that since I was not made it clear when starting. However, if it is a necessity to take points off, I can accept that.
 
 https://www.w3schools.com/w3css/default.asp
 https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-file
